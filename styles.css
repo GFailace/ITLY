@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+header {
+    display: grid;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+
+header h3 {
+    color: #343a40;
+} 
+
+.main {
+    margin: 2%;
+}
+
+table, tr{
+    text-align: center;
+    width: 100%;
+}
