@@ -10,6 +10,37 @@ html, body {
     width: 100%;
     height: 100%;
     font-size: 16px;
+    background: #343a40;
+    -webkit-animation: fadein 2s; 
+       -moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s; 
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 header {
@@ -19,9 +50,21 @@ header {
     align-content: center;
 }
 
+caption {
+    color: #FFF;
+}
+
 header h3 {
-    color: #343a40;
+    color: #FFF;
 } 
+
+a {
+    color: #343a40;
+}
+
+a:hover{
+    color: #000;
+}
 
 .main {
     margin: 2%;
@@ -30,4 +73,8 @@ header h3 {
 table, tr{
     text-align: center;
     width: 100%;
+    background: #FFF;
+}
+#pag {
+    margin: 0 45%;
 }

@@ -14,11 +14,12 @@
 
 <body>
     <header>
-        <h3>Sistema de Encomendas</h3>
+        <h3>Sistema de Encomendas Intelly</h3>
     </header>
     <div class="main">
         <div class="table-responsive">
-            <table class="table table-borderless">
+            <table class="table table-borderless" id="table">
+                    <caption>Clique no nome do cliente para maiores informações</caption>
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">Cód.</th>
@@ -32,11 +33,15 @@
 
                 </tbody>
             </table>
+            <div id="pag">
+                <button id="dois" class="btn btn-dark">Ver mais itens</button>
+                <button id="tres" class="btn btn-dark">Ver mais itens</button>
+            </div>
         </div>
     </div>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- $ first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
